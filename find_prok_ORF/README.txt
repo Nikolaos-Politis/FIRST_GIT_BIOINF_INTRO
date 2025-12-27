@@ -50,8 +50,8 @@ AAATGGCCGGCGGCTAG   :Frame 2: Tests if the program finds the ORF starting at the
 ATGTAG              :Length Boundary: Tests if the j-i >= 9 logic correctly skips ORFs that are too short.
 ATGGCCGGG           :Missing Stop: Tests if the code correctly ignores sequences that never end in a stop codon.
 GGCGGCTAG           :Missing Start: Tests if the code correctly ignores sequences that have a stop but no ATG.
-ATGCcxGGT12         :Invalid Characters: Tests if your filter catches non-ATGC characters (x, 1, 2).
+ATGCcxGGT12         :Invalid Characters: Tests if filter catches non-ATGC characters (x, 1, 2).
 ATGCCCTAAAGGTGA     :Internal Stop: Tests the requirement: "no other stop codons in the middle.
-ATGAAATGA           :Minimal Valid: The shortest possible sequence that should pass your 6 length check.
+ATGAAAAAATGA        :Minimal Valid: The shortest possible sequence that should pass 9 length check.
 
 
